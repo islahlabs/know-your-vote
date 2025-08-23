@@ -21,3 +21,6 @@ export const ExperienceSchema = z.object({
 
 export type Project = z.infer<typeof ProjectSchema>;
 export type Experience = z.infer<typeof ExperienceSchema>;
+
+// Export data types
+export * from './data';
