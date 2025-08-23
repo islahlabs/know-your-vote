@@ -1,122 +1,242 @@
 [
     {
         "Senator": "Alex Padilla",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Strengthening borders",
         "Stance based on voting records": "Against (Voted against bipartisan border bills)",
         "Stance based on public statements": "For comprehensive reform (Supports path to citizenship)"
     },
     {
         "Senator": "Alex Padilla",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Ukraine",
         "Stance based on voting records": "For (Voted for aid packages)",
         "Stance based on public statements": "For (Supports continued aid)"
     },
     {
         "Senator": "Alex Padilla",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Palestine",
         "Stance based on voting records": "For arming Israel (Voted to arm Israel)",
         "Stance based on public statements": "Supports two-state solution (Supports Israel's security)"
     },
     {
         "Senator": "Alex Padilla",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Islamophobia",
         "Stance based on voting records": "For combating (Co-sponsored legislation)",
         "Stance based on public statements": "Condemns Islamophobia (Supports legislation)"
     },
     {
         "Senator": "Alex Padilla",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "America First",
         "Stance based on voting records": "Against (Opposes anti-immigrant policy and advocates for international cooperation)",
         "Stance based on public statements": "Against (Dedicated career to safeguarding democracy against far-right extremism)"
     },
     {
         "Senator": "Mark Meuser",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Strengthening borders",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "For (Advocates for stricter enforcement)"
     },
     {
         "Senator": "Mark Meuser",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Ukraine",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "Against (Implicit in \"America First\" focus)"
     },
     {
         "Senator": "Mark Meuser",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Palestine",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "For (Implicit in conservative pro-Israel alignment)"
     },
     {
         "Senator": "Mark Meuser",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Islamophobia",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "N/A (No public record available)"
     },
     {
         "Senator": "Mark Meuser",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "America First",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "For (Platform aligns with \"America First\" principles)"
     },
     {
         "Senator": "Adam Schiff",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Strengthening borders",
         "Stance based on voting records": "For reform (Co-sponsored bill on enforcement)",
         "Stance based on public statements": "For comprehensive reform (Supports bipartisan solution and path to citizenship)"
     },
     {
         "Senator": "Adam Schiff",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Ukraine",
         "Stance based on voting records": "For (Voted for aid packages)",
         "Stance based on public statements": "For (Advocates for continued support)"
     },
     {
         "Senator": "Adam Schiff",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Palestine",
         "Stance based on voting records": "For arming Israel (Voted to arm Israel)",
         "Stance based on public statements": "Supports two-state solution (Supports Israel's security)"
     },
     {
         "Senator": "Adam Schiff",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "Islamophobia",
         "Stance based on voting records": "For combating (Co-sponsored legislation)",
         "Stance based on public statements": "Condemns Islamophobia (Supports legislation)"
     },
     {
         "Senator": "Adam Schiff",
+        "State": "California",
+        "Party": "Democrat",
         "Topic": "America First",
         "Stance based on voting records": "Against (Consistently opposed policies and politicians aligned with the ideology)",
         "Stance based on public statements": "Against (Dedicated career to safeguarding democracy against far-right extremism)"
     },
     {
         "Senator": "Steve Garvey",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Strengthening borders",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "For (Advocates for securing the border and ending chaos)"
     },
     {
         "Senator": "Steve Garvey",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Ukraine",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "Against (Implicit in focus on domestic issues and \"common sense\" politics)"
     },
     {
         "Senator": "Steve Garvey",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Palestine",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "For (Traveled to Israel during campaign and aligns with pro-Israel positions)"
     },
     {
         "Senator": "Steve Garvey",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "Islamophobia",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "N/A (No public record available)"
     },
     {
         "Senator": "Steve Garvey",
+        "State": "California",
+        "Party": "Republican",
         "Topic": "America First",
         "Stance based on voting records": "N/A",
         "Stance based on public statements": "For (Policy positions align with America First)"
+    },
+    {
+        "Senator": "John Fetterman",
+        "State": "Pennsylvania",
+        "Party": "Democrat",
+        "Topic": "Strengthening borders",
+        "Stance based on voting records": "Mixed (Voted against some bills)",
+        "Stance based on public statements": "For (Expressed support for a secure border)"
+    },
+    {
+        "Senator": "John Fetterman",
+        "State": "Pennsylvania",
+        "Party": "Democrat",
+        "Topic": "Ukraine",
+        "Stance based on voting records": "For (Voted for aid packages)",
+        "Stance based on public statements": "For (Advocates for continued support)"
+    },
+    {
+        "Senator": "John Fetterman",
+        "State": "Pennsylvania",
+        "Party": "Democrat",
+        "Topic": "Palestine",
+        "Stance based on voting records": "For arming Israel (Voted to arm Israel)",
+        "Stance based on public statements": "For (Supports Israel's security)"
+    },
+    {
+        "Senator": "John Fetterman",
+        "State": "Pennsylvania",
+        "Party": "Democrat",
+        "Topic": "Islamophobia",
+        "Stance based on voting records": "For combating (Co-sponsored legislation)",
+        "Stance based on public statements": "For (Condemns Islamophobia)"
+    },
+    {
+        "Senator": "John Fetterman",
+        "State": "Pennsylvania",
+        "Party": "Democrat",
+        "Topic": "America First",
+        "Stance based on voting records": "Against (Consistently opposed policies and politicians aligned with the ideology)",
+        "Stance based on public statements": "Against (Public statements against the movement)"
+    },
+    {
+        "Senator": "Dave McCormick",
+        "State": "Pennsylvania",
+        "Party": "Republican",
+        "Topic": "Strengthening borders",
+        "Stance based on voting records": "N/A (New Senator)",
+        "Stance based on public statements": "For (Ran on a platform of border security)"
+    },
+    {
+        "Senator": "Dave McCormick",
+        "State": "Pennsylvania",
+        "Party": "Republican",
+        "Topic": "Ukraine",
+        "Stance based on voting records": "For (Voted for military aid)",
+        "Stance based on public statements": "For (Supports aid as a check on Russian aggression)"
+    },
+    {
+        "Senator": "Dave McCormick",
+        "State": "Pennsylvania",
+        "Party": "Republican",
+        "Topic": "Palestine",
+        "Stance based on voting records": "N/A (New Senator)",
+        "Stance based on public statements": "For arming Israel (Publicly pro-Israel)"
+    },
+    {
+        "Senator": "Dave McCormick",
+        "State": "Pennsylvania",
+        "Party": "Republican",
+        "Topic": "Islamophobia",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "N/A (No public record)"
+    },
+    {
+        "Senator": "Dave McCormick",
+        "State": "Pennsylvania",
+        "Party": "Republican",
+        "Topic": "America First",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "For (Overall platform aligns with the movement)"
     }
 ]
