@@ -28,7 +28,7 @@ export const Layout = ({ children }: LayoutProps) => {
                 className="flex items-center cursor-pointer"
               >
                 <span className="text-xl font-bold text-gray-800 dark:text-white">
-                  Portfolio
+                  Mohamad Alsyouf
                 </span>
               </Link>
             </div>

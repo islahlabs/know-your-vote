@@ -27,10 +27,10 @@ export const Contact = () => {
                       Email
                     </h4>
                     <a
-                      href="mailto:your.email@example.com"
+                      href="mailto:mohamadalsyouf99@gmail.com"
                       className="text-blue-600 hover:text-blue-700"
                     >
-                      your.email@example.com
+                      mohamadalsyouf99@gmail.com
                     </a>
                   </div>
                   <div>
@@ -39,7 +39,7 @@ export const Contact = () => {
                     </h4>
                     <div className="flex space-x-4">
                       <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/mohamadalsyouf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
@@ -47,21 +47,21 @@ export const Contact = () => {
                         GitHub
                       </a>
                       <a
-                        href="https://linkedin.com/in/yourusername"
+                        href="https://linkedin.com/in/mohamadalsyouf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                       >
                         LinkedIn
                       </a>
-                      <a
+                      {/* <a
                         href="https://twitter.com/yourusername"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                       >
                         Twitter
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>

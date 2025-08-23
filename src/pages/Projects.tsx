@@ -4,22 +4,23 @@ import { Project } from "../types";
 const projects: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
+    title: "Fun 2 Learn - A Learning Platform",
     description:
-      "A full-stack e-commerce platform built with React, Node.js, and PostgreSQL. Features include user authentication, product management, shopping cart functionality, and Stripe payment integration.",
+      "A full-stack application built with React, Node.js, and PostgreSQL. Features include interactive image carousels with audio cueues, alphabetical & numerical recognition, and more.",
     technologies: [
       "React",
-      "TypeScript",
       "Node.js",
+      "Express",
       "PostgreSQL",
-      "Redux",
-      "Stripe API",
-      "Tailwind CSS",
+      "Fetch API",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
     ],
     imageUrl:
-      "https://placehold.co/600x400/2563eb/ffffff?text=E-Commerce+Platform",
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
-    liveUrl: "https://ecommerce-platform-demo.com",
+      "https://user-images.githubusercontent.com/93749120/179878027-9a0fd36f-35d8-460e-b504-77c7ddc2a9e0.gif",
+    githubUrl: "https://github.com/mohamadalsyouf/fun-2-learn",
+    // liveUrl: "https://fun2learn.netlify.app/",
   },
   {
     id: "2",
@@ -58,6 +59,62 @@ const projects: Project[] = [
     githubUrl: "https://github.com/yourusername/task-dashboard",
     liveUrl: "https://task-dashboard-demo.com",
   },
+  // {
+  //   id: "4",
+  //   title: "E-Commerce Platform",
+  //   description:
+  //     "A full-stack e-commerce platform built with React, Node.js, and PostgreSQL. Features include user authentication, product management, shopping cart functionality, and Stripe payment integration.",
+  //   technologies: [
+  //     "React",
+  //     "TypeScript",
+  //     "Node.js",
+  //     "PostgreSQL",
+  //     "Redux",
+  //     "Stripe API",
+  //     "Tailwind CSS",
+  //   ],
+  //   imageUrl:
+  //     "https://placehold.co/600x400/2563eb/ffffff?text=E-Commerce+Platform",
+  //   githubUrl: "https://github.com/yourusername/ecommerce-platform",
+  //   liveUrl: "https://ecommerce-platform-demo.com",
+  // },
+  // {
+  //   id: "5",
+  //   title: "Real-time Chat Application",
+  //   description:
+  //     "A modern chat application featuring real-time messaging, file sharing, and group conversations. Built with React, Socket.IO, and AWS services for scalable message handling and storage.",
+  //   technologies: [
+  //     "React",
+  //     "Socket.IO",
+  //     "AWS",
+  //     "TypeScript",
+  //     "Zustand",
+  //     "Styled Components",
+  //     "Express.js",
+  //   ],
+  //   imageUrl:
+  //     "https://placehold.co/600x400/059669/ffffff?text=Chat+Application",
+  //   githubUrl: "https://github.com/yourusername/chat-app",
+  //   liveUrl: "https://chat-app-demo.com",
+  // },
+  // {
+  //   id: "6",
+  //   title: "Task Management Dashboard",
+  //   description:
+  //     "A comprehensive project management tool with features like task tracking, team collaboration, and analytics. Implements drag-and-drop functionality and real-time updates.",
+  //   technologies: [
+  //     "React",
+  //     "TypeScript",
+  //     "TanStack Query",
+  //     "Node.js",
+  //     "MySQL",
+  //     "Shadcn UI",
+  //     "Cypress",
+  //   ],
+  //   imageUrl: "https://placehold.co/600x400/dc2626/ffffff?text=Task+Dashboard",
+  //   githubUrl: "https://github.com/yourusername/task-dashboard",
+  //   liveUrl: "https://task-dashboard-demo.com",
+  // },
 ];
 
 export const Projects = () => {
@@ -112,7 +169,7 @@ export const Projects = () => {
                         GitHub →
                       </a>
                     )}
-                    {project.liveUrl && (
+                    {/* {project.liveUrl && (
                       <a
                         href={project.liveUrl}
                         target="_blank"
@@ -121,7 +178,7 @@ export const Projects = () => {
                       >
                         Live Demo →
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </motion.div>
