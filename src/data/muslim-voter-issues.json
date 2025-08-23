@@ -1,0 +1,88 @@
+[
+    {
+        "topic": "Civil Rights & Religious Freedom",
+        "priorityRank": 1,
+        "description": "Protecting Muslims from Islamophobia, hate crimes, and ensuring freedom of religion in schools, workplaces, and public spaces.",
+        "focusAreas": [
+            "Anti-discrimination protections",
+            "Opposition to Muslim bans",
+            "Airport and border profiling reform",
+            "Religious accommodations at school/work"
+        ]
+    },
+    {
+        "topic": "Foreign Policy & Human Rights",
+        "priorityRank": 2,
+        "description": "Addressing U.S. foreign policy in Muslim-majority countries, promoting peace, human rights, and fair treatment of refugees.",
+        "focusAreas": [
+            "Palestine/Israel policy",
+            "Ending unnecessary wars and drone strikes",
+            "Humanitarian aid",
+            "Support for refugees and asylum seekers"
+        ]
+    },
+    {
+        "topic": "Healthcare & Economic Justice",
+        "priorityRank": 3,
+        "description": "Expanding access to affordable healthcare and improving economic opportunities, with attention to small business owners and working families.",
+        "focusAreas": [
+            "Affordable healthcare access",
+            "Job creation and fair wages",
+            "Small business support",
+            "Economic justice initiatives"
+        ]
+    },
+    {
+        "topic": "Immigration & Citizenship",
+        "priorityRank": 4,
+        "description": "Protecting immigrant families, improving visa systems, and providing fair pathways to citizenship for newcomers.",
+        "focusAreas": [
+            "Family reunification",
+            "Visa and travel restriction reforms",
+            "Pathways to citizenship",
+            "Protecting immigrant communities"
+        ]
+    },
+    {
+        "topic": "Education & Youth Empowerment",
+        "priorityRank": 5,
+        "description": "Supporting Muslim students, fighting bullying, and ensuring equal opportunities in higher education and beyond.",
+        "focusAreas": [
+            "Anti-bullying measures",
+            "Scholarships and financial aid",
+            "Student debt relief",
+            "Inclusion of Muslim history in curricula"
+        ]
+    },
+    {
+        "topic": "Voting Rights & Representation",
+        "priorityRank": 6,
+        "description": "Expanding access to the ballot box and increasing Muslim political representation in government.",
+        "focusAreas": [
+            "Voting rights protections",
+            "Opposition to voter suppression",
+            "Muslim representation in politics"
+        ]
+    },
+    {
+        "topic": "Social Justice & Equity",
+        "priorityRank": 7,
+        "description": "Promoting fairness in criminal justice and working with other marginalized communities for equality.",
+        "focusAreas": [
+            "Criminal justice reform",
+            "Ending racial profiling and surveillance",
+            "Coalition-building with other communities"
+        ]
+    },
+    {
+        "topic": "Climate & Environmental Stewardship",
+        "priorityRank": 8,
+        "description": "Caring for the environment as a moral and faith-driven responsibility, ensuring sustainable communities.",
+        "focusAreas": [
+            "Clean air and water",
+            "Climate change mitigation",
+            "Environmental justice",
+            "Sustainable energy policies"
+        ]
+    }
+]

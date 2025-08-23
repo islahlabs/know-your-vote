@@ -1,0 +1,146 @@
+[
+    {
+        "topic": "Civil Rights & Religious Freedom",
+        "muslimVoterPriorityRank": 1,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": true,
+                "issue": "Voting Rights & Civil Rights",
+                "priorityRank": 2,
+                "notes": "Padilla strongly emphasizes voting and civil rights, but less focus on religious accommodations."
+            },
+            "AdamSchiff": {
+                "aligned": true,
+                "issue": "Rule of Law, Oversight & Democracy",
+                "priorityRank": 1,
+                "notes": "Schiff highlights democracy and civil liberties; religious-specific protections are less explicit."
+            }
+        }
+    },
+    {
+        "topic": "Foreign Policy & Human Rights",
+        "muslimVoterPriorityRank": 2,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": "partial",
+                "issue": "Foreign Affairs & Territorial Governance",
+                "priorityRank": 7,
+                "notes": "Padilla engages in territorial self-determination (e.g., Puerto Rico), but Middle East and Muslim-world policy is not central."
+            },
+            "AdamSchiff": {
+                "aligned": "partial",
+                "issue": "Military, Defense & Foreign Policy",
+                "priorityRank": 9,
+                "notes": "Schiff engages in defense and war powers oversight, but little direct emphasis on Muslim-majority regions."
+            }
+        }
+    },
+    {
+        "topic": "Healthcare & Economic Justice",
+        "muslimVoterPriorityRank": 3,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": true,
+                "issue": "Economic Opportunity & Working Families",
+                "priorityRank": 4,
+                "notes": "Padilla emphasizes working families, access to healthcare, and equity."
+            },
+            "AdamSchiff": {
+                "aligned": true,
+                "issue": "Healthcare Access & Community Clinics",
+                "priorityRank": 2,
+                "notes": "Schiff is vocal on protecting healthcare access, Medicaid, and community health centers."
+            }
+        }
+    },
+    {
+        "topic": "Immigration & Citizenship",
+        "muslimVoterPriorityRank": 4,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": true,
+                "issue": "Immigration & Citizenship",
+                "priorityRank": 3,
+                "notes": "Padilla is Ranking Member of Immigration Subcommittee; immigration is a signature issue."
+            },
+            "AdamSchiff": {
+                "aligned": "partial",
+                "issue": "Immigration Policy & Border Reform",
+                "priorityRank": 6,
+                "notes": "Schiff supports Dreamers, TPS, and reform, but not as central to his platform as Padilla."
+            }
+        }
+    },
+    {
+        "topic": "Education & Youth Empowerment",
+        "muslimVoterPriorityRank": 5,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": "partial",
+                "issue": "Economic Opportunity & Working Families",
+                "priorityRank": 4,
+                "notes": "Padilla addresses education access in context of working families, but not as a standalone top issue."
+            },
+            "AdamSchiff": {
+                "aligned": "low",
+                "issue": "Small Business & Economic Resilience",
+                "priorityRank": 5,
+                "notes": "Schiff’s platform rarely emphasizes education policy directly."
+            }
+        }
+    },
+    {
+        "topic": "Voting Rights & Representation",
+        "muslimVoterPriorityRank": 6,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": true,
+                "issue": "Voting Rights & Civil Rights",
+                "priorityRank": 2,
+                "notes": "A cornerstone of Padilla’s career (ex–California Secretary of State)."
+            },
+            "AdamSchiff": {
+                "aligned": true,
+                "issue": "Rule of Law, Oversight & Democracy",
+                "priorityRank": 1,
+                "notes": "Central to Schiff’s platform — democracy protection, voting access."
+            }
+        }
+    },
+    {
+        "topic": "Social Justice & Equity",
+        "muslimVoterPriorityRank": 7,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": "partial",
+                "issue": "Public Accountability & Civil Liberties",
+                "priorityRank": 6,
+                "notes": "Padilla addresses civil liberties and accountability, though criminal justice reform is not a defining focus."
+            },
+            "AdamSchiff": {
+                "aligned": true,
+                "issue": "Judiciary, Civil Liberties & Technology",
+                "priorityRank": 2,
+                "notes": "Schiff actively works on justice system reform and oversight."
+            }
+        }
+    },
+    {
+        "topic": "Climate & Environmental Stewardship",
+        "muslimVoterPriorityRank": 8,
+        "overlap": {
+            "AlexPadilla": {
+                "aligned": true,
+                "issue": "Energy & Environment",
+                "priorityRank": 1,
+                "notes": "Padilla’s #1 priority — wildfire prevention, clean energy, and climate resilience."
+            },
+            "AdamSchiff": {
+                "aligned": true,
+                "issue": "Environmental Protection & Climate Resilience",
+                "priorityRank": 3,
+                "notes": "Key focus for Schiff, though less emphasized than democracy issues."
+            }
+        }
+    }
+]

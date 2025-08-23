@@ -1,0 +1,126 @@
+[
+    {
+        "issue": "Rule of Law, Oversight & Democracy",
+        "priorityRank": 1,
+        "description": "Strengthening democratic institutions, protecting the rule of law, and ensuring executive accountability.",
+        "examples": [
+            "Led House impeachment inquiry and led bicameral democracy hearings.",
+            "Championed Protecting Our Democracy Act and extended voting rights protections."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/about/",
+            "https://www.schiff.senate.gov/news/press-releases/"
+        ]
+    },
+    {
+        "issue": "Ethics & Accountability / Digital Assets Safeguards",
+        "priorityRank": 2,
+        "description": "Preventing financial exploitation by public officials, especially in emerging digital markets.",
+        "examples": [
+            "Introduced COIN Act to prevent crypto profiteering by public officials."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/news/press-releases/"
+        ]
+    },
+    {
+        "issue": "Environmental Protection & Climate Resilience",
+        "priorityRank": 3,
+        "description": "Advocating for environmental protections, climate science funding, and sustainable infrastructure.",
+        "examples": [
+            "Spoke at Tahoe Summit; opposed assaults on California clean air standards."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/about/",
+            "https://www.schiff.senate.gov/news/press-releases/"
+        ]
+    },
+    {
+        "issue": "Agriculture, Food Security & Farmer Support",
+        "priorityRank": 4,
+        "description": "Supporting California farmers and food security in the face of tariffs and federal cuts.",
+        "examples": [
+            "Addressed tariff impact on specialty crops; first CA senator on Agriculture committee."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/news/press-releases/"
+        ]
+    },
+    {
+        "issue": "Privacy, Surveillance & Civil Liberties",
+        "priorityRank": 5,
+        "description": "Protecting privacy rights by opposing misuse of data and surveillance.",
+        "examples": [
+            "Raised concerns about transfer of Medicaid data to immigration enforcement."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/news/press-releases/"
+        ]
+    },
+    {
+        "issue": "Immigration Policy & Border Reform",
+        "priorityRank": 6,
+        "description": "Supporting humane immigration policies, including paths to citizenship and legal protections.",
+        "examples": [
+            "Supports U.S. Citizenship Act for Dreamers and farmworkers."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/about/"
+        ]
+    },
+    {
+        "issue": "Gun Control, Labor & Economic Justice",
+        "priorityRank": 7,
+        "description": "Promoting gun reform, labor rights, and fair wages for workers.",
+        "examples": [
+            "Supports assault weapon bans, PRO Act, and minimum wage increases."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/about/"
+        ]
+    },
+    {
+        "issue": "Housing Affordability & Homelessness",
+        "priorityRank": 8,
+        "description": "Addressing housing crisis through affordable housing investment and faster development.",
+        "examples": [
+            "Advocated urgent rebuilding post-fires and affordable housing improvements."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/news/press-releases/"
+        ]
+    },
+    {
+        "issue": "Military, Defense & Foreign Policy",
+        "priorityRank": 9,
+        "description": "Balancing national security with oversight and budget scrutiny.",
+        "examples": [
+            "Called for defense reform, pushed back on NDAA with policy riders."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/about/"
+        ]
+    },
+    {
+        "issue": "Justice System & Surveillance Reform",
+        "priorityRank": 10,
+        "description": "Reforming criminal justice and increasing oversight of surveillance agencies.",
+        "examples": [
+            "Introduced legislation to reform FISA court procedures."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/about/"
+        ]
+    },
+    {
+        "issue": "Net Neutrality & Media Integrity",
+        "priorityRank": 11,
+        "description": "Supporting a free and open internet and protecting journalistic integrity.",
+        "examples": [
+            "Advocated for net neutrality and transparency in media structures."
+        ],
+        "sources": [
+            "https://www.schiff.senate.gov/about/"
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "issue": "Energy & Environment",
+    "priorityRank": 1,
+    "description": "Advancing clean energy, climate resilience, forest restoration, wildfire prevention, and ensuring environmental justice for all communities.",
+    "examples": [
+      "Bipartisan Fix Our Forests Act to address wildfires.",
+      "Holds on EPA nominees to defend California's clean air waivers."
+    ],
+    "sources": [
+      "https://www.padilla.senate.gov/about/issues/",
+      "https://www.padilla.senate.gov/about/committee-assignments/"
+    ]
+  },
+  {
+    "issue": "Voting Rights & Civil Rights",
+    "priorityRank": 2,
+    "description": "Defending democracy, fighting voter suppression, ensuring access to elections, particularly for minority communities.",
+    "examples": [
+      "Spotlight forum exposing voter suppression and DOJ pressure.",
+      "Intervention as Secretary of State to secure ballot drop box integrity."
+    ],
+    "sources": [
+      "https://www.padilla.senate.gov/about/issues/",
+      "https://www.padilla.senate.gov/newsroom/press-releases/"
+    ]
+  },
+  {
+    "issue": "Immigration & Citizenship",
+    "priorityRank": 3,
+    "description": "Supporting immigrant communities via comprehensive reform, refugee resettlement, and reversing discriminatory policies.",
+    "examples": [
+      "Ranking Member of Senate Immigration Subcommittee.",
+      "Pushing to reverse Trump policy restricting immigrants’ access to vital services."
+    ],
+    "sources": [
+      "https://www.padilla.senate.gov/about/committee-assignments/",
+      "https://www.padilla.senate.gov/newsroom/press-releases/"
+    ]
+  },
+  {
+    "issue": "Economic Opportunity & Working Families",
+    "priorityRank": 4,
+    "description": "Promoting supports for working families, including multilingual services, healthcare access, job training.",
+    "examples": [
+      "Advocacy for multilingual IRS services.",
+      "Support for education, health, and job access for immigrant families."
+    ],
+    "sources": [
+      "https://www.padilla.senate.gov/about/issues/",
+      "https://www.padilla.senate.gov/newsroom/newsletters/"
+    ]
+  },
+  {
+    "issue": "Evacuation & Refugee Resettlement",
+    "priorityRank": 5,
+    "description": "Prioritizing humanitarian efforts such as evacuations and resettlement of vulnerable populations.",
+    "examples": [
+      "Effort to coordinate safe evacuation of Afghan allies to California."
+    ],
+    "sources": [
+      "https://www.padilla.senate.gov/newsroom/press-releases/"
+    ]
+  },
+  {
+    "issue": "Public Accountability & Civil Liberties",
+    "priorityRank": 6,
+    "description": "Defending democratic norms and spotlighting government overreach through public accountability.",
+    "examples": [
+      "Using detained handcuff incident with DHS to call attention to civil liberties."
+    ],
+    "sources": [
+      "https://www.apnews.com/"
+    ]
+  },
+  {
+    "issue": "Foreign Affairs & Territorial Governance",
+    "priorityRank": 7,
+    "description": "Engagement in policy related to self-determination and fair treatment of U.S. territories.",
+    "examples": [
+      "Introduced legislation for binding referendum on Puerto Rico’s status."
+    ],
+    "sources": [
+      "https://www.padilla.senate.gov/about/issues/"
+    ]
+  }
+]
