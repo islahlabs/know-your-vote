@@ -3,7 +3,8 @@ import {
   AdamSchiffIssues, 
   AlexPadillaIssues, 
   MuslimVoterIssues, 
-  MuslimIssuesOverlap 
+  MuslimIssuesOverlap,
+  SenatorStances
 } from '../types';
 
 // Import JSON data
@@ -11,12 +12,14 @@ import adamSchiffIssuesData from './adam-schiff-issues.json';
 import alexPadillaIssuesData from './alex-padilla-issues.json';
 import muslimVoterIssuesData from './muslim-voter-issues.json';
 import muslimIssuesOverlapData from './muslim-issues-overlap-schiff-padilla.json';
+import senatorStancesData from './senator-stances-exposed.json';
 
 // Export typed data
 export const adamSchiffIssues: AdamSchiffIssues = adamSchiffIssuesData;
 export const alexPadillaIssues: AlexPadillaIssues = alexPadillaIssuesData;
 export const muslimVoterIssues: MuslimVoterIssues = muslimVoterIssuesData;
 export const muslimIssuesOverlap: MuslimIssuesOverlap = muslimIssuesOverlapData as MuslimIssuesOverlap;
+export const senatorStances: SenatorStances = senatorStancesData;
 
 // Utility functions for data manipulation
 export const getIssuesByCandidate = (candidate: 'AlexPadilla' | 'AdamSchiff') => {

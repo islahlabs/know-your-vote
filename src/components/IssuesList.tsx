@@ -3,10 +3,11 @@ import {
   adamSchiffIssues, 
   alexPadillaIssues, 
   muslimVoterIssues,
+  senatorStances,
   getTopIssues,
-  searchIssues,
-  type CandidateName 
+  searchIssues
 } from '../data';
+import { type CandidateName } from '../types';
 
 interface IssuesListProps {
   candidate?: CandidateName;
@@ -21,6 +22,7 @@ export const IssuesList: React.FC<IssuesListProps> = ({
 }) => {
   const [selectedCandidate, setSelectedCandidate] = useState<CandidateName | 'both'>(candidate || 'both');
   const [searchTerm, setSearchTerm] = useState(searchQuery);
+  const [stancesSearchTerm, setStancesSearchTerm] = useState('');
 
   // Get issues based on selection
   const getIssues = () => {
@@ -145,6 +147,71 @@ export const IssuesList: React.FC<IssuesListProps> = ({
             )}
           </div>
         ))}
+      </div>
+
+      {/* Senator Stances Section */}
+      <div className="mt-12">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Senator Stances Comparison</h2>
+        
+        {/* Topic Filter */}
+        <div className="mb-6 space-y-4">
+          <div className="flex gap-4">
+            <select 
+              onChange={(e) => setStancesSearchTerm(e.target.value)}
+              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            >
+              <option value="">All Topics</option>
+              {Array.from(new Set(senatorStances.map(stance => stance.Topic))).map(topic => (
+                <option key={topic} value={topic}>{topic}</option>
+              ))}
+            </select>
+            
+            <input
+              type="text"
+              placeholder="Search stances..."
+              value={stancesSearchTerm}
+              onChange={(e) => setStancesSearchTerm(e.target.value)}
+              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            />
+          </div>
+        </div>
+
+        {/* Stances List */}
+        <div className="space-y-4">
+          {senatorStances
+            .filter(stance => {
+              if (!stancesSearchTerm) return true;
+              const searchLower = stancesSearchTerm.toLowerCase();
+              return (
+                stance.Topic.toLowerCase().includes(searchLower) ||
+                stance.Senator.toLowerCase().includes(searchLower) ||
+                stance["Stance based on voting records"].toLowerCase().includes(searchLower) ||
+                stance["Stance based on personal websites"].toLowerCase().includes(searchLower)
+              );
+            })
+            .map((stance, index) => (
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <div className="flex items-start justify-between mb-3">
+                <h3 className="text-lg font-semibold text-gray-900">{stance.Topic}</h3>
+                <span className="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">
+                  {stance.Senator}
+                </span>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-red-50 p-4 rounded-lg">
+                  <h4 className="font-medium text-red-800 mb-2">Voting Record Stance</h4>
+                  <p className="text-red-700">{stance["Stance based on voting records"]}</p>
+                </div>
+                
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-medium text-blue-800 mb-2">Website Stance</h4>
+                  <p className="text-blue-700">{stance["Stance based on personal websites"]}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       {filteredIssues.length === 0 && (

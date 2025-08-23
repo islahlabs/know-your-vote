@@ -66,3 +66,13 @@ export interface IssueFilter {
   keywords?: string[];
   alignmentLevel?: AlignmentLevel;
 }
+
+// Interface for senator stances data
+export interface SenatorStance {
+  Senator: string;
+  Topic: string;
+  "Stance based on voting records": string;
+  "Stance based on public statements": string;
+}
+
+export type SenatorStances = SenatorStance[];

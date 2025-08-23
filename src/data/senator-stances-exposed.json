@@ -1,0 +1,122 @@
+[
+    {
+        "Senator": "Alex Padilla",
+        "Topic": "Strengthening borders",
+        "Stance based on voting records": "Against (Voted against bipartisan border bills)",
+        "Stance based on public statements": "For comprehensive reform (Supports path to citizenship)"
+    },
+    {
+        "Senator": "Alex Padilla",
+        "Topic": "Ukraine",
+        "Stance based on voting records": "For (Voted for aid packages)",
+        "Stance based on public statements": "For (Supports continued aid)"
+    },
+    {
+        "Senator": "Alex Padilla",
+        "Topic": "Palestine",
+        "Stance based on voting records": "For arming Israel (Voted to arm Israel)",
+        "Stance based on public statements": "Supports two-state solution (Supports Israel's security)"
+    },
+    {
+        "Senator": "Alex Padilla",
+        "Topic": "Islamophobia",
+        "Stance based on voting records": "For combating (Co-sponsored legislation)",
+        "Stance based on public statements": "Condemns Islamophobia (Supports legislation)"
+    },
+    {
+        "Senator": "Alex Padilla",
+        "Topic": "America First",
+        "Stance based on voting records": "Against (Opposes anti-immigrant policy and advocates for international cooperation)",
+        "Stance based on public statements": "Against (Dedicated career to safeguarding democracy against far-right extremism)"
+    },
+    {
+        "Senator": "Mark Meuser",
+        "Topic": "Strengthening borders",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "For (Advocates for stricter enforcement)"
+    },
+    {
+        "Senator": "Mark Meuser",
+        "Topic": "Ukraine",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "Against (Implicit in \"America First\" focus)"
+    },
+    {
+        "Senator": "Mark Meuser",
+        "Topic": "Palestine",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "For (Implicit in conservative pro-Israel alignment)"
+    },
+    {
+        "Senator": "Mark Meuser",
+        "Topic": "Islamophobia",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "N/A (No public record available)"
+    },
+    {
+        "Senator": "Mark Meuser",
+        "Topic": "America First",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "For (Platform aligns with \"America First\" principles)"
+    },
+    {
+        "Senator": "Adam Schiff",
+        "Topic": "Strengthening borders",
+        "Stance based on voting records": "For reform (Co-sponsored bill on enforcement)",
+        "Stance based on public statements": "For comprehensive reform (Supports bipartisan solution and path to citizenship)"
+    },
+    {
+        "Senator": "Adam Schiff",
+        "Topic": "Ukraine",
+        "Stance based on voting records": "For (Voted for aid packages)",
+        "Stance based on public statements": "For (Advocates for continued support)"
+    },
+    {
+        "Senator": "Adam Schiff",
+        "Topic": "Palestine",
+        "Stance based on voting records": "For arming Israel (Voted to arm Israel)",
+        "Stance based on public statements": "Supports two-state solution (Supports Israel's security)"
+    },
+    {
+        "Senator": "Adam Schiff",
+        "Topic": "Islamophobia",
+        "Stance based on voting records": "For combating (Co-sponsored legislation)",
+        "Stance based on public statements": "Condemns Islamophobia (Supports legislation)"
+    },
+    {
+        "Senator": "Adam Schiff",
+        "Topic": "America First",
+        "Stance based on voting records": "Against (Consistently opposed policies and politicians aligned with the ideology)",
+        "Stance based on public statements": "Against (Dedicated career to safeguarding democracy against far-right extremism)"
+    },
+    {
+        "Senator": "Steve Garvey",
+        "Topic": "Strengthening borders",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "For (Advocates for securing the border and ending chaos)"
+    },
+    {
+        "Senator": "Steve Garvey",
+        "Topic": "Ukraine",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "Against (Implicit in focus on domestic issues and \"common sense\" politics)"
+    },
+    {
+        "Senator": "Steve Garvey",
+        "Topic": "Palestine",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "For (Traveled to Israel during campaign and aligns with pro-Israel positions)"
+    },
+    {
+        "Senator": "Steve Garvey",
+        "Topic": "Islamophobia",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "N/A (No public record available)"
+    },
+    {
+        "Senator": "Steve Garvey",
+        "Topic": "America First",
+        "Stance based on voting records": "N/A",
+        "Stance based on public statements": "For (Policy positions align with America First)"
+    }
+]
