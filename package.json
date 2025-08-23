@@ -20,6 +20,7 @@
         "react-dom": "^18.2.0",
         "react-redux": "^9.0.4",
         "react-scroll": "^1.9.3",
+        "react-simple-maps": "^3.0.0",
         "three": "^0.176.0",
         "zod": "^3.22.4"
     },

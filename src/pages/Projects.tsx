@@ -1,188 +1,236 @@
 import { motion } from "framer-motion";
-import { Project } from "../types";
 
-const projects: Project[] = [
+const initiatives = [
   {
-    id: "1",
-    title: "Fun 2 Learn - A Learning Platform",
+    title: "Voter Registration Drives",
     description:
-      "A full-stack application built with React, Node.js, and PostgreSQL. Features include interactive image carousels with audio cueues, alphabetical & numerical recognition, and more.",
-    technologies: [
-      "React",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "Fetch API",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-    ],
-    imageUrl:
-      "https://user-images.githubusercontent.com/93749120/179878027-9a0fd36f-35d8-460e-b504-77c7ddc2a9e0.gif",
-    githubUrl: "https://github.com/mohamadalsyouf/fun-2-learn",
-    // liveUrl: "https://fun2learn.netlify.app/",
+      "Organizing community-wide voter registration events at mosques, community centers, and universities across California.",
+    impact: "5,000+ new voters registered",
+    status: "Active",
+    color: "green",
   },
   {
-    id: "2",
-    title: "Real-time Chat Application",
+    title: "Youth Civic Engagement",
     description:
-      "A modern chat application featuring real-time messaging, file sharing, and group conversations. Built with React, Socket.IO, and AWS services for scalable message handling and storage.",
-    technologies: [
-      "React",
-      "Socket.IO",
-      "AWS",
-      "TypeScript",
-      "Zustand",
-      "Styled Components",
-      "Express.js",
-    ],
-    imageUrl:
-      "https://placehold.co/600x400/059669/ffffff?text=Chat+Application",
-    githubUrl: "https://github.com/yourusername/chat-app",
-    liveUrl: "https://chat-app-demo.com",
+      "Educational programs for Muslim youth to understand the importance of civic participation and voting rights.",
+    impact: "2,000+ youth engaged",
+    status: "Active",
+    color: "blue",
   },
   {
-    id: "3",
-    title: "Task Management Dashboard",
+    title: "Community Outreach",
     description:
-      "A comprehensive project management tool with features like task tracking, team collaboration, and analytics. Implements drag-and-drop functionality and real-time updates.",
-    technologies: [
-      "React",
-      "TypeScript",
-      "TanStack Query",
-      "Node.js",
-      "MySQL",
-      "Shadcn UI",
-      "Cypress",
-    ],
-    imageUrl: "https://placehold.co/600x400/dc2626/ffffff?text=Task+Dashboard",
-    githubUrl: "https://github.com/yourusername/task-dashboard",
-    liveUrl: "https://task-dashboard-demo.com",
+      "Building partnerships with local organizations and mosques to increase voter awareness and participation.",
+    impact: "50+ partner organizations",
+    status: "Active",
+    color: "purple",
   },
-  // {
-  //   id: "4",
-  //   title: "E-Commerce Platform",
-  //   description:
-  //     "A full-stack e-commerce platform built with React, Node.js, and PostgreSQL. Features include user authentication, product management, shopping cart functionality, and Stripe payment integration.",
-  //   technologies: [
-  //     "React",
-  //     "TypeScript",
-  //     "Node.js",
-  //     "PostgreSQL",
-  //     "Redux",
-  //     "Stripe API",
-  //     "Tailwind CSS",
-  //   ],
-  //   imageUrl:
-  //     "https://placehold.co/600x400/2563eb/ffffff?text=E-Commerce+Platform",
-  //   githubUrl: "https://github.com/yourusername/ecommerce-platform",
-  //   liveUrl: "https://ecommerce-platform-demo.com",
-  // },
-  // {
-  //   id: "5",
-  //   title: "Real-time Chat Application",
-  //   description:
-  //     "A modern chat application featuring real-time messaging, file sharing, and group conversations. Built with React, Socket.IO, and AWS services for scalable message handling and storage.",
-  //   technologies: [
-  //     "React",
-  //     "Socket.IO",
-  //     "AWS",
-  //     "TypeScript",
-  //     "Zustand",
-  //     "Styled Components",
-  //     "Express.js",
-  //   ],
-  //   imageUrl:
-  //     "https://placehold.co/600x400/059669/ffffff?text=Chat+Application",
-  //   githubUrl: "https://github.com/yourusername/chat-app",
-  //   liveUrl: "https://chat-app-demo.com",
-  // },
-  // {
-  //   id: "6",
-  //   title: "Task Management Dashboard",
-  //   description:
-  //     "A comprehensive project management tool with features like task tracking, team collaboration, and analytics. Implements drag-and-drop functionality and real-time updates.",
-  //   technologies: [
-  //     "React",
-  //     "TypeScript",
-  //     "TanStack Query",
-  //     "Node.js",
-  //     "MySQL",
-  //     "Shadcn UI",
-  //     "Cypress",
-  //   ],
-  //   imageUrl: "https://placehold.co/600x400/dc2626/ffffff?text=Task+Dashboard",
-  //   githubUrl: "https://github.com/yourusername/task-dashboard",
-  //   liveUrl: "https://task-dashboard-demo.com",
-  // },
+  {
+    title: "Digital Voter Education",
+    description:
+      "Online resources and social media campaigns to educate Muslim communities about voting rights and procedures.",
+    impact: "100,000+ reach",
+    status: "Active",
+    color: "orange",
+  },
+  {
+    title: "Election Day Support",
+    description:
+      "Providing transportation and support services to help community members get to polling stations on election day.",
+    impact: "1,000+ assisted",
+    status: "Planning",
+    color: "red",
+  },
+  {
+    title: "Post-Election Analysis",
+    description:
+      "Analyzing voting patterns and community engagement to improve future mobilization efforts.",
+    impact: "Data-driven insights",
+    status: "Ongoing",
+    color: "indigo",
+  },
 ];
 
+// const successStories = [
+//   {
+//     name: "Aisha Khan",
+//     role: "Community Organizer",
+//     story:
+//       "We registered over 500 new voters in our mosque community. The sense of empowerment was incredible.",
+//     location: "Los Angeles, CA",
+//   },
+//   {
+//     name: "Ahmed Hassan",
+//     role: "Youth Coordinator",
+//     story:
+//       "Our youth program helped young Muslims understand their civic duty. Many are now active in local politics.",
+//     location: "San Francisco, CA",
+//   },
+//   {
+//     name: "Fatima Ali",
+//     role: "Volunteer Coordinator",
+//     story:
+//       "The community response was overwhelming. People were eager to participate and make their voices heard.",
+//     location: "San Diego, CA",
+//   },
+// ];
+
 export const Projects = () => {
+  const getStatusColor = (status: string) => {
+    switch (status) {
+      case "Active":
+        return "bg-green-100 text-green-800";
+      case "Planning":
+        return "bg-yellow-100 text-yellow-800";
+      case "Ongoing":
+        return "bg-blue-100 text-blue-800";
+      default:
+        return "bg-gray-100 text-gray-800";
+    }
+  };
+
+  const getColorClasses = (color: string) => {
+    switch (color) {
+      case "green":
+        return "border-green-200 bg-green-50";
+      case "blue":
+        return "border-blue-200 bg-blue-50";
+      case "purple":
+        return "border-purple-200 bg-purple-50";
+      case "orange":
+        return "border-orange-200 bg-orange-50";
+      case "red":
+        return "border-red-200 bg-red-50";
+      case "indigo":
+        return "border-indigo-200 bg-indigo-50";
+      default:
+        return "border-gray-200 bg-gray-50";
+    }
+  };
+
   return (
-    <div className="min-h-screen py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-16 transition-colors duration-300">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
-            Projects
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6 transition-colors duration-300">
+            Our Initiatives & Success Stories
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project) => (
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300">
+            Discover how we're making a difference in Muslim communities across
+            America through voter mobilization and civic engagement programs.
+          </p>
+        </motion.div>
+
+        {/* Initiatives Grid */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mb-16"
+        >
+          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center transition-colors duration-300">
+            Current Initiatives
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {initiatives.map((initiative, index) => (
               <motion.div
-                key={project.id}
-                className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
-                whileHover={{ y: -5 }}
+                key={initiative.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 * index }}
+                className={`border rounded-lg p-6 ${getColorClasses(
+                  initiative.color
+                )}`}
               >
-                <img
-                  src={project.imageUrl}
-                  alt={project.title}
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                    {project.title}
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    {project.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.technologies.map((tech) => (
-                      <span
-                        key={tech}
-                        className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full text-sm"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                  <div className="flex space-x-4">
-                    {project.githubUrl && (
-                      <a
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-700 transition-colors"
-                      >
-                        GitHub →
-                      </a>
-                    )}
-                    {/* {project.liveUrl && (
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-700 transition-colors"
-                      >
-                        Live Demo →
-                      </a>
-                    )} */}
-                  </div>
+                <div className="flex justify-between items-start mb-4">
+                  <h4 className="text-xl font-semibold text-gray-900">
+                    {initiative.title}
+                  </h4>
+                  <span
+                    className={`px-2 py-1 rounded-full text-xs font-medium ${getStatusColor(
+                      initiative.status
+                    )}`}
+                  >
+                    {initiative.status}
+                  </span>
+                </div>
+                <p className="text-gray-600 mb-4">{initiative.description}</p>
+                <div className="text-sm font-semibold text-gray-800">
+                  Impact: {initiative.impact}
                 </div>
               </motion.div>
             ))}
+          </div>
+        </motion.div>
+
+        {/* Success Stories
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mb-16"
+        >
+          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center transition-colors duration-300">
+            Success Stories
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {successStories.map((story, index) => (
+              <motion.div
+                key={story.name}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 * index }}
+                className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg transition-colors duration-300"
+              >
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-4">
+                    <span className="text-green-600 dark:text-green-400 font-semibold">
+                      {story.name.charAt(0)}
+                    </span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 dark:text-white transition-colors duration-300">
+                      {story.name}
+                    </h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                      {story.role}
+                    </p>
+                  </div>
+                </div>
+                <p className="text-gray-600 dark:text-gray-300 mb-4 italic transition-colors duration-300">
+                  "{story.story}"
+                </p>
+                <p className="text-sm text-gray-500 dark:text-gray-400 transition-colors duration-300">
+                  {story.location}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div> */}
+
+        {/* Call to Action */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+          className="bg-gradient-to-r from-green-600 to-blue-600 rounded-lg p-8 text-center text-white"
+        >
+          <h3 className="text-3xl font-bold mb-4">Get Involved Today</h3>
+          <p className="text-xl mb-6 text-green-100">
+            Join us in empowering Muslim communities through civic engagement
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              Volunteer
+            </button>
+            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors">
+              Donate
+            </button>
           </div>
         </motion.div>
       </div>
