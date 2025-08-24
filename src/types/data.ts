@@ -76,3 +76,31 @@ export interface SenatorStance {
 }
 
 export type SenatorStances = SenatorStance[];
+
+// Interface for OpenSecrets campaign finance data
+export interface OpenSecretsData {
+  candidate_name: string;
+  party: string;
+  state: string;
+  district: string;
+  total_receipts: number;
+  total_disbursements: number;
+  cash_on_hand: number;
+  debt: number;
+  contributions: CampaignContribution[];
+  expenditures: CampaignExpenditure[];
+}
+
+export interface CampaignContribution {
+  contributor: string;
+  amount: number;
+  date: string;
+}
+
+export interface CampaignExpenditure {
+  recipient: string;
+  amount: number;
+  purpose: string;
+}
+
+export type OpenSecretsAlexPadilla = OpenSecretsData;

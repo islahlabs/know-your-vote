@@ -10,6 +10,10 @@ This directory contains TypeScript interfaces that provide type safety for all t
 - **`MuslimVoterIssue`** - Interface for Muslim voter priority issues
 - **`CandidateOverlap`** - Interface for analyzing candidate alignment with Muslim voter issues
 - **`MuslimIssueOverlap`** - Interface for the overlap analysis data structure
+- **`SenatorStance`** - Interface for senator voting records and public statements
+- **`OpenSecretsData`** - Interface for campaign finance data from OpenSecrets
+- **`CampaignContribution`** - Interface for individual campaign contributions
+- **`CampaignExpenditure`** - Interface for individual campaign expenditures
 
 ### Type Aliases
 
@@ -17,6 +21,8 @@ This directory contains TypeScript interfaces that provide type safety for all t
 - **`AlexPadillaIssues`** - Array of Alex Padilla's issues
 - **`MuslimVoterIssues`** - Array of Muslim voter priority issues
 - **`MuslimIssuesOverlap`** - Array of overlap analysis data
+- **`SenatorStances`** - Array of senator stance data
+- **`OpenSecretsAlexPadilla`** - Campaign finance data for Alex Padilla
 
 ### Utility Types
 
@@ -32,8 +38,10 @@ import {
   adamSchiffIssues, 
   alexPadillaIssues, 
   muslimVoterIssues,
+  openSecretsAlexPadilla,
   type Issue,
-  type CandidateName 
+  type CandidateName,
+  type OpenSecretsData
 } from '../data';
 ```
 
@@ -50,6 +58,18 @@ console.log(topIssue.examples); // TypeScript knows this is string[]
 const getCandidateIssues = (candidate: CandidateName): Issue[] => {
   return candidate === 'AlexPadilla' ? alexPadillaIssues : adamSchiffIssues;
 };
+
+// Type-safe access to campaign finance data
+const campaignData: OpenSecretsData = openSecretsAlexPadilla;
+console.log(campaignData.total_receipts); // TypeScript knows this is a number
+console.log(campaignData.contributions); // TypeScript knows this is CampaignContribution[]
+
+// Working with contributions
+const topContributor = campaignData.contributions
+  .filter(c => c.contributor && c.contributor.trim() !== '')
+  .sort((a, b) => b.amount - a.amount)[0];
+
+console.log(`${topContributor.contributor}: $${topContributor.amount.toLocaleString()}`);
 ```
 
 ### Utility Functions
@@ -77,7 +97,7 @@ const mediumPriorityIssues = getIssuesByPriority(adamSchiffIssues, 3, 7);
 
 ```typescript
 import React from 'react';
-import { adamSchiffIssues, type Issue } from '../data';
+import { adamSchiffIssues, openSecretsAlexPadilla, type Issue, type OpenSecretsData } from '../data';
 
 const IssueCard: React.FC<{ issue: Issue }> = ({ issue }) => {
   return (
@@ -90,12 +110,24 @@ const IssueCard: React.FC<{ issue: Issue }> = ({ issue }) => {
   );
 };
 
+const CampaignFinanceCard: React.FC<{ data: OpenSecretsData }> = ({ data }) => {
+  return (
+    <div>
+      <h3>{data.candidate_name}</h3>
+      <p>Total Receipts: ${(data.total_receipts / 1000000).toFixed(1)}M</p>
+      <p>Cash on Hand: ${(data.cash_on_hand / 1000000).toFixed(1)}M</p>
+      {/* TypeScript provides autocomplete and type checking */}
+    </div>
+  );
+};
+
 const IssuesList: React.FC = () => {
   return (
     <div>
       {adamSchiffIssues.map((issue, index) => (
         <IssueCard key={index} issue={issue} />
       ))}
+      <CampaignFinanceCard data={openSecretsAlexPadilla} />
     </div>
   );
 };
@@ -117,6 +149,8 @@ All interfaces are designed to match the exact structure of the JSON files:
 - `src/data/alex-padilla-issues.json` → `AlexPadillaIssues`
 - `src/data/muslim-voter-issues.json` → `MuslimVoterIssues`
 - `src/data/muslim-issues-overlap-schiff-padilla.json` → `MuslimIssuesOverlap`
+- `src/data/senator-stances-exposed.json` → `SenatorStances`
+- `src/data/opensecrets-alex-padilla.json` → `OpenSecretsAlexPadilla`
 
 ## Adding New Data
 
