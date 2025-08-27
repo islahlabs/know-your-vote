@@ -6,6 +6,10 @@ A comprehensive web application designed to empower Muslim communities across Am
 
 This hackathon project focuses on increasing Muslim voter participation and representation in American democracy. The platform provides tools for community organizing, voter education, and mobilization efforts.
 
+
+https://github.com/user-attachments/assets/d4b5fc8d-fb16-4c77-83fc-56d0c9bf70f2
+
+
 ## ✨ Features
 
 - **Interactive US Map**: Click on California to explore Muslim communities and voter registration opportunities
