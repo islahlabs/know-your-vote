@@ -100,9 +100,11 @@ This is a hackathon project focused on civic engagement. We welcome contribution
 - Enhance accessibility
 - Expand to additional states beyond California
 
+<!---
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+-->
 
 ## 🙏 Acknowledgments
 
@@ -115,9 +117,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For questions about this project or to get involved in Muslim voter mobilization:
 
-- Email: info@muslimvoters.org
-- Phone: (555) 123-4567
-- Social Media: @MuslimVotersCA
+- Email: mohamadalsyouf99@gmail.com or riyad.shauk@gmail.com
 
 ---
 
